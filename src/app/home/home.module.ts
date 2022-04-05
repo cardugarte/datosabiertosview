@@ -6,8 +6,7 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
-//PlotlyJS
-import { PlotlyModule } from 'angular-plotly.js';
+import { ComponentsModule } from './../components/components.module';
 
 
 @NgModule({
@@ -16,7 +15,7 @@ import { PlotlyModule } from 'angular-plotly.js';
     FormsModule,
     IonicModule,
     HomePageRoutingModule,
-    PlotlyModule
+    ComponentsModule
   ],
   declarations: [HomePage]
 })
