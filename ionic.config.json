@@ -1,0 +1,7 @@
+{
+  "name": "plotly-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
