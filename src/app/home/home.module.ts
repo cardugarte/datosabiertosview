@@ -6,13 +6,17 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
+//PlotlyJS
+import { PlotlyModule } from 'angular-plotly.js';
+
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    PlotlyModule
   ],
   declarations: [HomePage]
 })
